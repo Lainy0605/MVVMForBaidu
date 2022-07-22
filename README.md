@@ -1,5 +1,15 @@
 # MVVM
 
+姓名：李亚飞 
+
+学校：南京大学
+
+专业：软件工程
+
+年级：大二
+
+QQ：592511932
+
 ## 1. 导言
 
 这是2022百度前端实战训练营大作业，实现了一个简单的MVVM框架，功能包括：
@@ -71,4 +81,4 @@
 
 ## 4. 单元测试
 
-![](https://seec-homework.oss-cn-shanghai.aliyuncs.com/屏幕截图 2022-07-22 155700.png)
+![](https://seec-homework.oss-cn-shanghai.aliyuncs.com/image-2022-07-22-UnitTest.png)
