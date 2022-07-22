@@ -1,4 +1,4 @@
-const {Watcher} = require("./watcher");
+// const {Watcher} = require("./watcher");
 class Compile{
     constructor(el,vm) {
         this.el = this.isElementNode(el) ? el : document.querySelector(el);
@@ -76,7 +76,6 @@ class Compile{
             CompileUtil['text'](node,this.vm,expr);
         }
     }
-
 }
 
 CompileUtil = {
@@ -148,12 +147,9 @@ CompileUtil = {
     }
 }
 
-module.exports = {
-    Compile,
-    isElementNode(node){
-        return node.nodeType === 1;
-    },
-    isDirective(name){
-        return name.includes('v-');
-    },
+if(typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
+    module.exports = {
+        Compile,
+        CompileUtil
+    }
 }

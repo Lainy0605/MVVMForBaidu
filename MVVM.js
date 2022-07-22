@@ -1,5 +1,5 @@
-const {Compile} = require("./compile");
-const {Observer} = require("./observer");
+// const {Compile} = require("./compile");
+// const {Observer} = require("./observer");
 class MVVM{
     constructor(options) {
         // 先把传输的参数数据保存
@@ -33,6 +33,8 @@ class MVVM{
 
 }
 
-module.exports={
-    MVVM
+if(typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
+    module.exports={
+        MVVM
+    }
 }

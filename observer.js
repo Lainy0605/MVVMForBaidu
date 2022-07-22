@@ -36,6 +36,7 @@ class Observer{
 }
 
 class Dep{
+    static target;
     constructor() {
         //订阅的数组
         this.subs = []
@@ -50,14 +51,9 @@ class Dep{
         this.subs.forEach(watcher=>watcher.update())
     }
 }
-
-module.exports={
-    Observer,
-    Dep,
-    addSub(watcher){
-        this.subs.push(watcher);
-    },
-    notify(){
-        this.subs.forEach(watcher=>watcher.update())
+if(typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
+    module.exports={
+        Observer,
+        Dep
     }
 }

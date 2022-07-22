@@ -39,36 +39,36 @@
 
   - 改变输入框中的值，对应属性值未发生变化
 
-    ![image-20220721132628720](C:\Users\59251\AppData\Roaming\Typora\typora-user-images\image-20220721132628720.png)
+    ![](https://seec-homework.oss-cn-shanghai.aliyuncs.com/image-20220721132628720.png)
 
-    ![image-20220721132703386](C:\Users\59251\AppData\Roaming\Typora\typora-user-images\image-20220721132703386.png)
+    ![](https://seec-homework.oss-cn-shanghai.aliyuncs.com/image-20220721132703386.png)
 
   - 改变属性值，对应展示值发生变化
 
-    ![image-20220721132742924](C:\Users\59251\AppData\Roaming\Typora\typora-user-images\image-20220721132742924.png)
+    ![](https://seec-homework.oss-cn-shanghai.aliyuncs.com/image-20220721132742924.png)
 
 - 双向绑定
 
   - 从输入框中改变值，对应属性值改变
 
-  ![image-20220721132233858](C:\Users\59251\AppData\Roaming\Typora\typora-user-images\image-20220721132233858.png)
+  ![](https://seec-homework.oss-cn-shanghai.aliyuncs.com/image-20220721132233858.png)
 
-  ![image-20220721132821026](C:\Users\59251\AppData\Roaming\Typora\typora-user-images\image-20220721132821026.png)
+  ![](https://seec-homework.oss-cn-shanghai.aliyuncs.com/image-20220721132821026.png)
 
   - 改变属性值，对应展示值也发生改变
 
-    ![image-20220721132521374](C:\Users\59251\AppData\Roaming\Typora\typora-user-images\image-20220721132521374.png)
+    ![](https://seec-homework.oss-cn-shanghai.aliyuncs.com/image-20220721132521374.png)
 
-    ![image-20220721132545095](C:\Users\59251\AppData\Roaming\Typora\typora-user-images\image-20220721132545095.png)
+    ![](https://seec-homework.oss-cn-shanghai.aliyuncs.com/image-20220721132545095.png)
 
 - 发布订阅模式
 
   - 属性值改变，对应的展示也发生变化
 
-  ![image-20220721132922561](C:\Users\59251\AppData\Roaming\Typora\typora-user-images\image-20220721132922561.png)
+  ![](https://seec-homework.oss-cn-shanghai.aliyuncs.com/image-20220721132545095.png)
 
-  ![image-20220721132948217](C:\Users\59251\AppData\Roaming\Typora\typora-user-images\image-20220721132948217.png)
+  ![](https://seec-homework.oss-cn-shanghai.aliyuncs.com/image-20220721132948217.png)
 
 ## 4. 单元测试
 
-![image-20220721134925562](C:\Users\59251\AppData\Roaming\Typora\typora-user-images\image-20220721134925562.png)
+![](https://seec-homework.oss-cn-shanghai.aliyuncs.com/屏幕截图 2022-07-22 155700.png)
